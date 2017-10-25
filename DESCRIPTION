@@ -1,11 +1,11 @@
 Package: invector
-Title: What the Package Does (one line, title case)
+Title: Searches for partial string matches in vectors.
 Version: 0.0.0.9000
 Authors@R: person("Grace", "D", email = "rumroses12@gmail.com", role = c("aut", "cre"))
-Description: Searches for partial string matches of one vector in another vector, returning a logical vector.
+Description: This function searches for each element of vector1 (needle) in the corresponding element of vector2 (haystack), and returns a logical vector. Unlike the %in% function, the search key can be found anywhere in element being searched (not just the beginning).
 Depends:
     R (>= 3.3.1)
-License: What license is it under?
+License: 
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
