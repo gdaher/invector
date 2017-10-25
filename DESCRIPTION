@@ -1,5 +1,5 @@
 Package: invector
-Title: Searches for partial string matches in vectors.
+Title: Searches for partial string matches in vectors
 Version: 0.0.0.9000
 Authors@R: person("Grace", "D", email = "rumroses12@gmail.com", role = c("aut", "cre"))
 Description: This function searches for each element of vector1 (needle) in the corresponding element of vector2 (haystack), and returns a logical vector. Unlike the %in% function, the search key can be found anywhere in element being searched (not just the beginning).
