@@ -24,4 +24,3 @@ vector_in_vector(needle,haystack, vector = TRUE)
 \keyword{find}
 \keyword{match,}
 \keyword{vector,}
-
