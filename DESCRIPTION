@@ -5,7 +5,7 @@ Authors@R: person("Grace", "D", email = "rumroses12@gmail.com", role = c("aut", 
 Description: This function searches for each element of vector1 (needle) in the corresponding element of vector2 (haystack), and returns a logical vector. Unlike the %in% function, the search key can be found anywhere in element being searched (not just the beginning).
 Depends:
     R (>= 3.3.1)
-License: 
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
