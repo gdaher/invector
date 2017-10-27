@@ -1,8 +1,8 @@
 Package: invector
-Title: Searches for partial string matches in vectors
+Title: Search functionality for multiple keys in a single string
 Version: 0.0.0.9000
 Authors@R: person("Grace", "D", email = "rumroses12@gmail.com", role = c("aut", "cre"))
-Description: This function searches for each element of vector1 (needle) in the corresponding element of vector2 (haystack), and returns a logical vector. Unlike the %in% function, the search key can be found anywhere in element being searched (not just the beginning).
+Description: This package helps cover functionality not covered by %in% in R, allowing for seaches involving more than one key per search string.
 Depends:
     R (>= 3.3.1)
 License: GPL-3
